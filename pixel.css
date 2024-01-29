@@ -1,0 +1,26 @@
+.pixel {
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  border: none;
+  transition: transform 0.25s 0.15s ease-out;
+}
+
+.pixel--d0 {
+  transform: rotate(0deg);
+}
+
+.pixel--d90 {
+  transform: rotate(90deg);
+}
+
+.pixel--d180 {
+  transform: rotate(180deg);
+}
+
+.pixel--d270 {
+  transform: rotate(270deg);
+}
